@@ -1,0 +1,45 @@
+#message_container {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 65vh;
+  overflow-y: scroll;
+}
+
+#message_row {
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  display: block;
+  max-width: 80%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.user_message {
+  padding: 3px;
+}
+
+#typing_container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+
+#send_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+}
+
+#user_textarea {
+  margin-top: 10px;
+}
+
+#user_message_pane {
+  margin-top: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

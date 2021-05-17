@@ -1,0 +1,19 @@
+#main_pane {
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+  max-height: 90vh;
+}
+
+@media only screen and (max-width: 567px) {
+  #main_pane {
+    max-width: 348px;
+  }
+}
+
+ @media only screen and (max-width: 348px) {
+   #main_pane {
+     width: 348px;
+     overflow: scroll;
+   }
+}

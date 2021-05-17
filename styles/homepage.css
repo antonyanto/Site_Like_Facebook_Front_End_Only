@@ -1,0 +1,80 @@
+@media only screen and (max-width: 768px) {
+  #image_container {
+    width: 50%;
+    height: auto;
+  }
+
+  #format_users {
+    text-align: center;
+  }
+}
+
+#full-container {
+  background-color: #f2f2f2;
+}
+
+body {
+  counter-reset: images;
+}
+
+#navbar_top {
+  padding: 0px;
+  margin: -1px;
+}
+
+.show_img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+h6.show_img::after {
+  font-family: 'Roboto', sans-serif;
+  counter-increment: images;
+  content: "User Image : " counter(images);
+}
+
+#main_navbar {
+  font-family: 'josefin sans', sans-serif;
+}
+
+#image_container {
+  height: 81vh;
+  overflow-y: scroll;
+}
+
+#main_heading {
+  font-family: 'josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a[href*=".html"].mess_not {
+  padding-left: 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  white-space: nowrap;
+}
+
+a[href*=".html"].mess_not:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#format_users {
+  font-family: 'Roboto', sans-serif;
+  overflow-y: scroll;
+  max-height: 65vh;
+}
+
+#sub_headings {
+  font-family: 'Lusitana', serif;
+}
