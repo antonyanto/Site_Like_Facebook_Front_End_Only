@@ -42,7 +42,7 @@ h6.show_img::after {
 
 #image_container {
   height: 81vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 #main_heading {
@@ -71,7 +71,7 @@ a[href*=".html"].mess_not:hover {
 
 #format_users {
   font-family: 'Roboto', sans-serif;
-  overflow-y: scroll;
+  overflow-y: auto;
   max-height: 65vh;
 }
 

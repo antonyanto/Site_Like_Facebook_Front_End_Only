@@ -1,19 +1,24 @@
 #main_pane {
   margin-left: auto;
   margin-right: auto;
-  overflow-y: scroll;
+  overflow-y: auto;
   max-height: 90vh;
 }
 
-@media only screen and (max-width: 567px) {
+@media screen and (max-width: 576px) {
   #main_pane {
-    max-width: 348px;
+    max-width: 80%;
   }
-}
 
- @media only screen and (max-width: 348px) {
-   #main_pane {
-     width: 348px;
-     overflow: scroll;
-   }
+  .close span {
+    display: inline-block;
+    height: auto;
+    width: 60px;
+  }
+
+  a {
+    display: inline-block;
+    width: 85%;
+    height: auto;
+  }
 }

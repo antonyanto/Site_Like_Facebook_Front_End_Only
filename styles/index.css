@@ -3,3 +3,8 @@
   padding-top:25vh;
   background: linear-gradient(to top, #00ffff 0%, #ffff00 100%)
 }
+
+#login_btn {
+  display: block;
+  margin: 0px auto;
+}
